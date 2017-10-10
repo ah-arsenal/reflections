@@ -6,3 +6,6 @@ use git status to see commit status
 1. What happens when you initialize a repository? Why do you need to do it?
 you create the hiddedn .git directory so git can start adding metadata to your files. 
 
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area is different because it shows the actual files that will be changed on next commit 
+
