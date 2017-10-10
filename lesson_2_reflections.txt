@@ -1,0 +1,8 @@
+lession_2_reflections.txt 
+
+use git init to initialize a git repository 
+use git status to see commit status 
+
+1. What happens when you initialize a repository? Why do you need to do it?
+you create the hiddedn .git directory so git can start adding metadata to your files. 
+
