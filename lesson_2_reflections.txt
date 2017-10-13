@@ -8,4 +8,39 @@ you create the hiddedn .git directory so git can start adding metadata to your f
 
 2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area is different because it shows the actual files that will be changed on next commit 
+git diff --staged, diff b/w staging and master 
+git reset --hard removes all changes 
+
+
+
+PROCESS 
+Fix bug
+
+Stage your change
+Then stage your change by adding the game.js file to the staging area. If you’re having trouble remembering how to stage changes, use this video as a refresher.
+
+Commit your change
+Now, go ahead and commit this change. Make sure to use a meaningful commit message! If you have trouble remember how to commit, refer to this video.
+
+
+
+Right now, your HEAD should still be 'detached' from Lesson 1 when you checked out an old commit. To fix that, run the command git checkout master
+
+How can you use the staging area to make sure you have one commit per logical change?
+you can look through the lines changed and the changes b/w master and commit to ensure only one piece is changed. 
+
+How do the diagrams help you visualize the branch structure?
+They help understand which commits are reachable and which aren't. 
+
+git checkout master 
+git merge change 
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The changes from both branches (if no conflics) are abosorbed into the master branch. 
+
+git log --graph ## drawing format 
+
+
+
 
